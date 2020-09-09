@@ -297,7 +297,7 @@ resource "aws_instance" "WebServer" {
    ```
  # Here is our Infrastructure
    - Key_Pair
-     ![Job1](/images/key.jpg/)
+     ![Job1](/images/Key.jpg/)
    - Security_group
      ![Job1](/images/SG1.jpg/)'
    - EFS_Storage
@@ -310,6 +310,9 @@ resource "aws_instance" "WebServer" {
    - CloudFront
      ![Job1](/images/CloudFront1.jpg/)
      ![Job1](/images/CloudFront.jpg/)
+  # Congratulation 
+   # Here is the output obtained by going to Instance public IP 
+   ![Job1](/images/Output.jpg/)
 
 
 
