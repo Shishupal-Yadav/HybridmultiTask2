@@ -201,7 +201,7 @@ resource "aws_instance" "WebServer" {
 ```
 
   # Step8
-   # Create CloudFront 
+   **Create CloudFront**
   ```
   resource "aws_cloudfront_distribution" "s3_distribution" {
   origin {
