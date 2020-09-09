@@ -201,7 +201,7 @@ resource "aws_instance" "WebServer" {
 ```
 
   # Step8
-  **Create CloudFront 
+   # Create CloudFront 
   ```
   resource "aws_cloudfront_distribution" "s3_distribution" {
   origin {
@@ -302,7 +302,6 @@ resource "aws_instance" "WebServer" {
      ![Job1](/images/SG1.jpg/)'
    - EFS_Storage
      ![Job1](/images/EFS.jpg/)
-     ![Job1](/images/Amazon EFS and 4 more pages - Personal - Microsoft​ Edge 08-09-2020 22_50_35.jpg/)
    - S3 Bucket
      ![Job1](/images/S3.jpg/)
    - AWS Instance
