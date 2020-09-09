@@ -21,8 +21,8 @@
    
    # Step1
    **First we have to login with some user iusing CLI, it should be already created**
+     ![Job1](/images/aws-profile.jpg/)
    
-   ![alt text](https://miro.medium.com/max/1500/1*WCXUqu-Lgeo6ZiUzlXnTLg.png)
       
    # Step2
    **Set the provider as AWS**
@@ -35,6 +35,7 @@
    
    # Step3
    **Create a key_pair to login to instance**
+ 
    ```
    resource "tls_private_key" "aws-key" {
   algorithm   = "RSA"
@@ -287,6 +288,28 @@ resource "aws_instance" "WebServer" {
 }
   
 ```
+ # Now after creating the code run the following commands
+   ```
+   terraform init
+   terraform validate
+   terraform plan
+   terraform apply --auto-approve
+   ```
+ # Here is our Infrastructure
+   - Key_Pair
+     ![Job1](/images/key.jpg/)
+   - Security_group
+     ![Job1](/images/SG1.jpg/)'
+   - EFS_Storage
+     ![Job1](/images/EFS.jpg/)
+     ![Job1](/images/Amazon EFS and 4 more pages - Personal - Microsoft​ Edge 08-09-2020 22_50_35.jpg/)
+   - S3 Bucket
+     ![Job1](/images/S3.jpg/)
+   - AWS Instance
+     ![Job1](/images/Instance.jpg/)
+   - CloudFront
+     ![Job1](/images/CloudFront1.jpg/)
+     ![Job1](/images/CloudFront.jpg/)
 
 
 
