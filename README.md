@@ -1,7 +1,7 @@
 # Webserver Deploymeny Using Terraform and EFS
 ![alt text](https://miro.medium.com/max/1500/1*WCXUqu-Lgeo6ZiUzlXnTLg.png)
 
-# Prequiste for this project
+# Perquisites for this project
   **Should  have**
   - An  AWS account
   - AWS command  installed
