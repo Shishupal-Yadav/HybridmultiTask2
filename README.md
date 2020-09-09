@@ -21,7 +21,7 @@
    
    # Step1
    **First we have to login with some user iusing CLI, it should be already created**
-     ![Job1](/images/awsprofile.jpg/)
+     ![Job1](/images/aws-profile.jpg/)
    
       
    # Step2
